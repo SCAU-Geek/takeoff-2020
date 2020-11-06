@@ -20,5 +20,5 @@
 ## 加入方式 ##
 
 - 请随便找个聊天工具私聊  `秋香姐` 邀请你进入 Github 组织
-- 完成这份挑战吧：<>
+- 完成这份挑战吧：https://github.com/SCAU-Geek/takeoff-2020/blob/main/TAKEOFF.md
 - 完成后我们会去找你的，稍安勿躁。
