@@ -1,0 +1,30 @@
+.s1{
+    background-color: #ccc;
+    padding: 5px;
+    color: black;
+    text-align: left;
+    height: 200px;
+}
+.s2{
+    background-color:yellow;
+    height: 100px;
+    width: 485px;
+    float: left;
+    padding: 5px;
+}
+.s3{
+    background-color: yellow;
+    height: 100px;
+    width: 485px;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+}
+.s4{
+    background-color: yellow;
+    height: 100px;
+    width: 485px;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+}

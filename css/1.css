@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.banner{
+    width: 700px;
+    height: 350px;
+    overflow: hidden;
+    margin: 100px auto;
+    position: relative;
+
+}
+.banner ul{
+    width: 2100px;
+    height: 350px;
+    position: absolute;
+    
+}
+.banner ul li{
+
+    list-style-type: none;
+    float: left;/*向左浮动*/
+    width: 700px;
+    height: 350px;
+}
+.banner .num{
+    width: 100%;
+    height: 20px;
+    
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+}
+.banner .num span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 10px;
+    cursor: pointer;/*小手*/
+
+}
+.banner .prev{
+    display: block;
+    width: 40px;
+    height: 60px;
+    background-color:rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255,0.4);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+    transition: background-color .3s;
+}
+.banner .next{
+    display: block;
+    width: 40px;
+    height: 60px;
+    background-color:rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255,0.4);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+    transition: background-color .3s;
+}
+.banner .prev i,
+.banner .next i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.banner .prev:hover,
+.banner .next:hover{
+    background-color: rgba(0,0,0,0.5);
+    color:black;
+}
+.banner .num span:hover{
+    background-color: #ccc;
+}
+.banner .num span.on{
+    width: 30px;
+    height: 15px;
+}
