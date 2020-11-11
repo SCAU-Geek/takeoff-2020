@@ -67,6 +67,6 @@ git checkout -b 你的名字                               #这里是创建你�
 git add .
 git commit -m "前端/后端"
 git remote add origin  git@github.com:SCAU-Geek/takeoff-2020.git
-git pull origin  你的分支名
+git push origin  你的分支名
 ```
 
