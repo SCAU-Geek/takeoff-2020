@@ -16,3 +16,9 @@
 
 1. cd target/
 2. java -jar geek2020-0.0.1-SNAPSHOT.jar
+
+#### 使用方法:
+
+1. curl http://127.0.0.1/showname?number=your_student_number&password=your_password
+2. 使用http请求工具
+
