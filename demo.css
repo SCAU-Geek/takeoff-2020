@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?wl1jmk');
+    src:  url('fonts/icomoon.eot?wl1jmk#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?wl1jmk') format('truetype'),
+      url('fonts/icomoon.woff?wl1jmk') format('woff'),
+      url('fonts/icomoon.svg?wl1jmk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+body{
+    padding: 0 12px;
+    background-color: #fff;
+}
+
+li{
+    list-style: none;
+}
+/* header的制作 */
+a{
+    text-decoration: none;
+   
+}
+.w{
+    width: 100%;
+}
+.liChangeColor{
+    background-color: #e7e7e7;
+}
+span{
+    font-family: 'icomoon';
+    
+}
+.header{
+    height: 42px;
+    border:1px solid #e7e7e7;
+    border-radius: 2px;
+    background-color:#f8f8f8;
+}
+
+
+.header .table {
+    float: left;
+    width: 250px;
+    height: 25px;
+    line-height: 25px;
+
+}
+.header .table ul li{
+    display: block;
+    float: left;
+    /* display: inline-block; */
+    padding: 0 10px;
+}
+.header .table ul li a{
+    height: 42px;
+    line-height: 42px;
+    color: #555555;
+    font-size: 12px;
+}
+
+.search{
+    float: left;
+    height: 24px;
+   
+
+}
+.search input{
+    float: left;
+    outline: none;
+    width: 145px;
+    height: 23px;
+    margin:8px auto;
+    border:1px solid #cccccc;
+    border-radius: 2px;
+    padding-left: 8px;
+    font-size: 12px;
+    color:#cccccc;
+}
+
+.search button{
+    float: left;
+    height: 25px;
+    margin:8px auto;
+    margin-left: 3px;
+    border:1px solid #cccccc;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.header .link{
+    float: right;
+    height: 24px;
+}
+.header .link ul li{
+    float: right;
+    padding: 0 10px;
+}
+.header .link ul li a{
+    height: 42px;
+    line-height: 42px;
+    color: #555555;
+    font-size: 12px;
+}
+
+#Dropdown ul li{
+    float: none;
+    background-color: #e7e7e7 ;
+    border:1px solid rgba(0,0,0,0.3);
+    text-align: center;
+    
+}
+
+/* 轮播图 */
+pic{
+    width: 1400px;
+    height: 600px;
+}
+.picBox{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: pink;
+}
+.arrow-1,
+.arrow-2{
+    font-family: 'icomoon';
+    font-size: 28px;
+    color: #fff;
+    position: absolute;
+    top:200px;
+    z-index: 1;
+}
+
+.arrow-1{
+
+    left: 100px;
+}
+.arrow-2{
+
+    right: 100px;
+}
+.pic ul{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+.pic li{
+    float: left;
+
+}
+.pic li img{
+    width: 1200px;
+    height: 400px;
+}
+
+/* pic模块里面的小圆圈 */
+.circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+.circle li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    border:2px solid rgba(255,255,255,0.5);
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+/* 经过时变成白色 */
+.current{
+    background-color: #fff;
+}
+/* content盒子 */
+.content{
+    width: 100%-30px;
+    height: 150px;
+    border-radius: 2px;
+    padding: 50px 0 40px 40px;
+    background-color: #eeeeee;
+}
+
+
+.content p{
+    /* width: 100%; */
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    color:#333333;
+}
+.content a{
+    display: block;
+    width: 82px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 12px;
+    border-radius: 2px;
+    font-size: 12px;
+    color:#f3fff6;
+    background-color: #428bca;
+}
+
+.footer{
+    padding-top: 80px;
+}
+
+.box{
+
+    float: left;
+    margin-left: 10%;
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+
+}
+
+.box p{
+    float: left;
+    margin: 20px 0px;
+}
+.box a{
+    color:#6c8bd4;
+}
+
+
