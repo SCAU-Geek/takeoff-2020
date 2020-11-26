@@ -123,7 +123,7 @@ public class ShowName extends HttpServlet {
 				Document infoDocument = Jsoup.parse(information);
 				System.out.println(infoDocument);
 				//找到需要的名字
-				String name = information.substring(information.indexOf("userAlias")+12, information.indexOf("userAlias")+15);
+				String name = information.substring(information.indexOf("userAlias")+12, information.indexOf("businessAccount")-3);
 				last.put("number", number);
 				last.put("password", password);
 				last.put("name", name);
